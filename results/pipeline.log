@@ -1,0 +1,19 @@
+2026-11-22 18:39:04 STAGE bench_scaling
+2026-11-22 18:45:15 DONE bench_scaling
+2026-11-22 18:45:15 STAGE train s4
+2026-11-22 20:21:48 DONE train s4
+2026-11-22 20:21:48 STAGE train transformer
+2026-11-22 21:20:10 DONE train transformer
+2026-11-22 21:20:10 STAGE train lstm
+2026-11-22 23:02:45 DONE train lstm
+2026-11-22 23:02:45 STAGE train mamba
+2026-11-23 02:47:31 DONE train mamba
+2026-11-23 02:47:31 STAGE train transformer_prefix
+2026-11-23 03:10:32 DONE train transformer_prefix
+2026-11-23 03:10:32 STAGE evaluate
+2026-11-23 03:26:32 DONE evaluate
+2026-11-23 03:26:32 STAGE evaluate_prefix
+2026-11-23 03:31:17 DONE evaluate_prefix
+2026-11-23 03:31:17 STAGE figures
+2026-11-23 03:31:22 DONE figures
+2026-11-23 03:31:22 ALL DONE

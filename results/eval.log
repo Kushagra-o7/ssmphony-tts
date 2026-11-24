@@ -1,0 +1,53 @@
+Loading weights:   0%|          | 0/245 [00:00<?, ?it/s]Loading weights: 100%|##########| 245/245 [00:00<00:00, 38530.35it/s]
+Could not parse CUDA device string 'cuda': not enough values to unpack (expected 2, got 1). Falling back to device 0.
+[transformers] Passing `generation_config` together with generation-related arguments=({'suppress_tokens', 'begin_suppress_tokens'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer WhisperTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+ground truth (vocoded): {'cer': 0.0560897195149334, 'wer': 0.07003587865111958}
+[s4] 0: cer 0.000 mcd 2.41 |  This is a definite advantage to the shooter, the vehicle moving direc
+[s4] 20: cer 0.262 mcd 2.16 |  In concluding that Oswald was carrying a rifle in the paper bag on th
+[s4] 40: cer 0.077 mcd 2.60 |  there were only two of them, and they could not visit each prison mor
+[s4] 60: cer 0.015 mcd 2.20 |  In this convulsive struggle for bear existence, people fought fiercel
+[s4] 80: cer 0.722 mcd 2.72 |  at 12.30 p.m.
+s4 {'tf_l1': 0.2686053037643433, 'cer': 0.0696489047870215, 'wer': 0.09010031277856019, 'mcd': 2.3542976695486058, 'dur_ratio': 0.9796101474772146, 'stopped': 1.0, 'ms_per_step': 5.721059618363923, 'rtf': 0.12356766795933545, 'cer_median': 0.007933023955850996, 'cer_clipped': 0.0696489047870215, 'wer_clipped': 0.09010031277856019, 'wer_median': 0.03666666666666667}
+[transformer] 0: cer 0.000 mcd 2.43 |  This is a definite advantage to the shooter, the vehicle moving direc
+[transformer] 20: cer 0.262 mcd 2.18 |  In concluding that Oswald was carrying a rifle in the paper bag on th
+[transformer] 40: cer 0.098 mcd 2.39 |  If there were only two of them, and they could not visit each prison 
+[transformer] 60: cer 0.015 mcd 2.73 |  In this convulsive struggle for bear existence, people fought fiercel
+[transformer] 80: cer 0.722 mcd 2.43 |  at 12.30 p.m.
+transformer {'tf_l1': 0.2654751121997833, 'cer': 0.07066647386314816, 'wer': 0.08669428514892574, 'mcd': 2.3092648513969265, 'dur_ratio': 0.9880526210871123, 'stopped': 1.0, 'ms_per_step': 7.8037123031960585, 'rtf': 0.168588170781778, 'cer_median': 0.0, 'cer_clipped': 0.07066647386314816, 'wer_clipped': 0.08669428514892574, 'wer_median': 0.0}
+[lstm] 0: cer 0.000 mcd 2.54 |  This is a definite advantage to the shooter. The vehicle moving direc
+[lstm] 20: cer 0.262 mcd 2.19 |  in concluding that Oswald was carrying a rifle in the paper bag on th
+[lstm] 40: cer 0.077 mcd 2.44 |  there were only two of them and they could not visit each prison more
+[lstm] 60: cer 0.015 mcd 2.31 |  in this convulsive struggle for bear existence people fought fiercely
+[lstm] 80: cer 0.722 mcd 2.93 |  at 12.30 p.m.
+lstm {'tf_l1': 0.26698236763477323, 'cer': 0.0699499919764012, 'wer': 0.08998323936798158, 'mcd': 2.280160855793412, 'dur_ratio': 0.9888242385601265, 'stopped': 1.0, 'ms_per_step': 2.0880134175173803, 'rtf': 0.04510677828680329, 'cer_median': 0.0, 'cer_clipped': 0.0699499919764012, 'wer_clipped': 0.08998323936798158, 'wer_median': 0.0}
+[mamba] 0: cer 0.000 mcd 2.56 |  This is a definite advantage to the shooter, the vehicle moving direc
+[mamba] 20: cer 0.262 mcd 2.11 |  in concluding that Oswald was carrying a rifle in the paper bag on th
+[mamba] 40: cer 0.063 mcd 2.32 |  there were only two of them, and they could not visit each prison mor
+[mamba] 60: cer 0.015 mcd 2.48 |  in this convulsive struggle for bear existence, people fought fiercel
+[mamba] 80: cer 0.722 mcd 2.83 |  at 12.30 p.m.
+mamba {'tf_l1': 0.26903845071792604, 'cer': 0.07422353372978172, 'wer': 0.09414148208907598, 'mcd': 2.331292433313173, 'dur_ratio': 0.986845904454152, 'stopped': 1.0, 'ms_per_step': 4.25079694374527, 'rtf': 0.09184909150206717, 'cer_median': 0.0037313432835820895, 'cer_clipped': 0.07422353372978172, 'wer_clipped': 0.09414148208907598, 'wer_median': 0.016666666666666666}
+[s4@8000] 0: cer 0.000 mcd 2.35 |  This is a definite advantage to the shooter, the vehicle moving direc
+[s4@8000] 20: cer 0.262 mcd 2.35 |  in concluding that Oswald was carrying a rifle in the paper bag on th
+[s4@8000] 40: cer 0.077 mcd 2.65 |  There were only two of them, and they could not visit each prison mor
+[s4@8000] 60: cer 0.015 mcd 2.35 |  In this convulsive struggle for bear existence, people fought fiercel
+[s4@8000] 80: cer 0.722 mcd 2.59 |  at 12.30 p.m.
+s4@8000 {'tf_l1': 0.28015848994255066, 'cer': 0.06323926646881267, 'wer': 0.08540182973139292, 'mcd': 2.5325675627193482, 'dur_ratio': 0.9357016682186152, 'stopped': 1.0, 'ms_per_step': 5.590226584942253, 'rtf': 0.12083948316835907, 'cer_median': 0.003787878787878788, 'cer_clipped': 0.06323926646881267, 'wer_clipped': 0.08540182973139292, 'wer_median': 0.016666666666666666}
+[transformer@8000] 0: cer 0.000 mcd 2.53 |  This is a definite advantage to the shooter, the vehicle moving direc
+[transformer@8000] 20: cer 0.262 mcd 2.13 |  in concluding that Oswald was carrying a rifle in the paper bag on th
+[transformer@8000] 40: cer 0.063 mcd 2.72 |  There were only two of them, and they could not visit each prison mor
+[transformer@8000] 60: cer 0.015 mcd 2.28 |  In this convulsive struggle for bear existence, people fought fiercel
+[transformer@8000] 80: cer 0.722 mcd 2.53 |  at 12.30 p.m.
+transformer@8000 {'tf_l1': 0.27731659114360807, 'cer': 0.07020429897723378, 'wer': 0.08978792238033724, 'mcd': 2.394516265232299, 'dur_ratio': 0.9398220955502604, 'stopped': 1.0, 'ms_per_step': 7.709663220808912, 'rtf': 0.16661143857523628, 'cer_median': 0.0034482758620689655, 'cer_clipped': 0.07020429897723378, 'wer_clipped': 0.08978792238033724, 'wer_median': 0.017857142857142856}
+[lstm@8000] 0: cer 0.000 mcd 2.47 |  This is a definite advantage to the shooter, the vehicle moving direc
+[lstm@8000] 20: cer 0.287 mcd 2.13 |  in concluding that Oswald was carrying a rifle in the paper bag the m
+[lstm@8000] 40: cer 0.077 mcd 2.26 |  there were only two of them, and they could not visit each prison mor
+[lstm@8000] 60: cer 0.015 mcd 2.38 |  in this convulsive struggle for bear existence, people fought fiercel
+[lstm@8000] 80: cer 0.722 mcd 2.75 |  at 12.30 p.m.
+lstm@8000 {'tf_l1': 0.2755796790122986, 'cer': 0.06705740737417445, 'wer': 0.08647787001253483, 'mcd': 2.30792861627278, 'dur_ratio': 0.9391390668051056, 'stopped': 1.0, 'ms_per_step': 2.039071730457444, 'rtf': 0.0440547719989986, 'cer_median': 0.0, 'cer_clipped': 0.06705740737417445, 'wer_clipped': 0.08647787001253483, 'wer_median': 0.0}
+[mamba@8000] 0: cer 0.000 mcd 2.38 |  This is a definite advantage to the shooter, the vehicle moving direc
+[mamba@8000] 20: cer 0.262 mcd 2.05 |  in concluding that Oswald was carrying a rifle in the paper bag on th
+[mamba@8000] 40: cer 0.063 mcd 2.46 |  there were only two of them, and they could not visit each prison mor
+[mamba@8000] 60: cer 0.015 mcd 2.30 |  in this convulsive struggle for bear existence, people fought fiercel
+[mamba@8000] 80: cer 0.722 mcd 2.54 |  at 12.30 p.m.
+mamba@8000 {'tf_l1': 0.2736045032739639, 'cer': 0.06414902158449973, 'wer': 0.08794775424928541, 'mcd': 2.336370247454658, 'dur_ratio': 0.9656190957646804, 'stopped': 1.0, 'ms_per_step': 4.215710530471339, 'rtf': 0.09112627940964549, 'cer_median': 0.011704244031830239, 'cer_clipped': 0.06414902158449973, 'wer_clipped': 0.08794775424928541, 'wer_median': 0.03851851851851852}

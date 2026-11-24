@@ -1,0 +1,12 @@
+Loading weights:   0%|          | 0/245 [00:00<?, ?it/s]Loading weights: 100%|##########| 245/245 [00:00<00:00, 37612.26it/s]
+Could not parse CUDA device string 'cuda': not enough values to unpack (expected 2, got 1). Falling back to device 0.
+[transformers] Passing `generation_config` together with generation-related arguments=({'begin_suppress_tokens', 'suppress_tokens'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer WhisperTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+[s4_prefix] 0: cer 5.435 mcd 3.98 |  Could he have the fun of 5th of 3rd 4th? Could he have 5th of 5th of 
+[s4_prefix] 20: cer 9.434 mcd 3.29 |  From heaven to heaven, how the forty hate from? It was the fast, but 
+[s4_prefix] 40: cer 7.245 mcd 4.17 |  I have brought to the heart that each fit of the fish is then. He fit
+s4_prefix {'tf_l1': 0.3156750500202179, 'cer': 4.39768190132747, 'wer': 5.6659601451349735, 'mcd': 4.14835012230173, 'dur_ratio': 1.4027001587316874, 'stopped': 0.74, 'ms_per_step': 5.6877102692748345, 'rtf': 0.12247462054444347, 'cer_median': 0.8782716049382716, 'cer_clipped': 0.8790580562095556, 'wer_clipped': 0.9837463586502488, 'wer_median': 1.244047619047619}
+[transformer_prefix] 0: cer 8.929 mcd 3.74 |  This activity, if you think of using the new fear of being a peer, th
+[transformer_prefix] 20: cer 0.803 mcd 3.80 |  In a corner of the reason, I have given films. A president that they 
+[transformer_prefix] 40: cer 0.930 mcd 3.45 |  They're willingly levied at the views of the pictures and the haws wi
+transformer_prefix {'tf_l1': 0.3071980357170105, 'cer': 3.1264013580108014, 'wer': 4.256312860764119, 'mcd': 4.025246285750765, 'dur_ratio': 1.2658179230924054, 'stopped': 0.92, 'ms_per_step': 7.704530686157721, 'rtf': 0.16590322424782983, 'cer_median': 0.8093727469358327, 'cer_clipped': 0.8347715035319652, 'wer_clipped': 0.978713160269682, 'wer_median': 1.1769230769230767}

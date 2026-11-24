@@ -1,0 +1,592 @@
+{
+ "config": {
+  "d_model": 256,
+  "batch": 2,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+ },
+ "train": [
+  {
+   "model": "S4 (FFT conv)",
+   "L": 256,
+   "ms": 2.9286999997566454,
+   "mem_MB": 82.6630859375
+  },
+  {
+   "model": "S4 (FFT conv)",
+   "L": 512,
+   "ms": 3.861600001982879,
+   "mem_MB": 131.2236328125
+  },
+  {
+   "model": "S4 (FFT conv)",
+   "L": 1024,
+   "ms": 5.60859999677632,
+   "mem_MB": 262.2275390625
+  },
+  {
+   "model": "S4 (FFT conv)",
+   "L": 2048,
+   "ms": 11.977900001511443,
+   "mem_MB": 524.2353515625
+  },
+  {
+   "model": "S4 (FFT conv)",
+   "L": 4096,
+   "ms": 23.56530000542989,
+   "mem_MB": 1048.2509765625
+  },
+  {
+   "model": "S4 (FFT conv)",
+   "L": 8192,
+   "ms": 49.76520000491291,
+   "mem_MB": 2096.2822265625
+  },
+  {
+   "model": "S4 (FFT conv)",
+   "L": 16384,
+   "ms": 91.16619999986142,
+   "mem_MB": 4192.3447265625
+  },
+  {
+   "model": "S4 (FFT conv)",
+   "L": 32768,
+   "ms": null,
+   "mem_MB": null,
+   "fail": "OOM"
+  },
+  {
+   "model": "S4 (parallel scan)",
+   "L": 256,
+   "ms": 15.285900000890251,
+   "mem_MB": 209.2861328125
+  },
+  {
+   "model": "S4 (parallel scan)",
+   "L": 512,
+   "ms": 34.7126999986358,
+   "mem_MB": 417.5947265625
+  },
+  {
+   "model": "S4 (parallel scan)",
+   "L": 1024,
+   "ms": 72.84149999759393,
+   "mem_MB": 835.5947265625
+  },
+  {
+   "model": "S4 (parallel scan)",
+   "L": 2048,
+   "ms": 147.83360000001267,
+   "mem_MB": 1671.5947265625
+  },
+  {
+   "model": "S4 (parallel scan)",
+   "L": 4096,
+   "ms": 298.948499999824,
+   "mem_MB": 3343.5947265625
+  },
+  {
+   "model": "S4 (parallel scan)",
+   "L": 8192,
+   "ms": null,
+   "mem_MB": null,
+   "fail": "OOM"
+  },
+  {
+   "model": "Mamba (chunked log-space scan)",
+   "L": 256,
+   "ms": 34.96219999942696,
+   "mem_MB": 35.4541015625
+  },
+  {
+   "model": "Mamba (chunked log-space scan)",
+   "L": 512,
+   "ms": 65.93140000040876,
+   "mem_MB": 61.4404296875
+  },
+  {
+   "model": "Mamba (chunked log-space scan)",
+   "L": 1024,
+   "ms": 130.66969999636058,
+   "mem_MB": 116.7529296875
+  },
+  {
+   "model": "Mamba (chunked log-space scan)",
+   "L": 2048,
+   "ms": 257.07490000058897,
+   "mem_MB": 234.72021484375
+  },
+  {
+   "model": "Mamba (chunked log-space scan)",
+   "L": 4096,
+   "ms": 515.3484999973443,
+   "mem_MB": 471.1142578125
+  },
+  {
+   "model": "Mamba (chunked log-space scan)",
+   "L": 8192,
+   "ms": 1619.3318000005092,
+   "mem_MB": 945.1259765625
+  },
+  {
+   "model": "Mamba (chunked log-space scan)",
+   "L": 16384,
+   "ms": 5368.734499999846,
+   "mem_MB": 1894.1259765625
+  },
+  {
+   "model": "Mamba (chunked log-space scan)",
+   "L": 32768,
+   "ms": 19120.625099996687,
+   "mem_MB": 3792.1259765625
+  },
+  {
+   "model": "Mamba (chunked Blelloch scan)",
+   "L": 256,
+   "ms": 27.60419999685837,
+   "mem_MB": 61.3857421875
+  },
+  {
+   "model": "Mamba (chunked Blelloch scan)",
+   "L": 512,
+   "ms": 50.50330000085523,
+   "mem_MB": 86.5087890625
+  },
+  {
+   "model": "Mamba (chunked Blelloch scan)",
+   "L": 1024,
+   "ms": 102.09570000006352,
+   "mem_MB": 141.8212890625
+  },
+  {
+   "model": "Mamba (chunked Blelloch scan)",
+   "L": 2048,
+   "ms": 199.06279999850085,
+   "mem_MB": 252.4462890625
+  },
+  {
+   "model": "Mamba (chunked Blelloch scan)",
+   "L": 4096,
+   "ms": 444.3962000004831,
+   "mem_MB": 474.1845703125
+  },
+  {
+   "model": "Mamba (chunked Blelloch scan)",
+   "L": 8192,
+   "ms": 821.947899996303,
+   "mem_MB": 937.1884765625
+  },
+  {
+   "model": "Mamba (chunked Blelloch scan)",
+   "L": 16384,
+   "ms": 2115.7894999996643,
+   "mem_MB": 1885.3134765625
+  },
+  {
+   "model": "Mamba (chunked Blelloch scan)",
+   "L": 32768,
+   "ms": 6383.917099999962,
+   "mem_MB": 3783.3134765625
+  },
+  {
+   "model": "Mamba (chunked Blelloch scan)",
+   "L": 65536,
+   "ms": null,
+   "mem_MB": null,
+   "fail": "OOM"
+  },
+  {
+   "model": "Attention (naive)",
+   "L": 256,
+   "ms": 1.5515999984927475,
+   "mem_MB": 10.689453125
+  },
+  {
+   "model": "Attention (naive)",
+   "L": 512,
+   "ms": 1.7197999986819923,
+   "mem_MB": 35.498046875
+  },
+  {
+   "model": "Attention (naive)",
+   "L": 1024,
+   "ms": 5.735999999160413,
+   "mem_MB": 136.248046875
+  },
+  {
+   "model": "Attention (naive)",
+   "L": 2048,
+   "ms": 21.745400001236703,
+   "mem_MB": 531.248046875
+  },
+  {
+   "model": "Attention (naive)",
+   "L": 4096,
+   "ms": 71.49280000157887,
+   "mem_MB": 2095.248046875
+  },
+  {
+   "model": "Attention (naive)",
+   "L": 8192,
+   "ms": null,
+   "mem_MB": null,
+   "fail": "OOM"
+  },
+  {
+   "model": "Attention (PyTorch SDPA)",
+   "L": 256,
+   "ms": 2.470500003255438,
+   "mem_MB": 6.400390625
+  },
+  {
+   "model": "Attention (PyTorch SDPA)",
+   "L": 512,
+   "ms": 2.6954000059049577,
+   "mem_MB": 11.544921875
+  },
+  {
+   "model": "Attention (PyTorch SDPA)",
+   "L": 1024,
+   "ms": 3.6849999960395508,
+   "mem_MB": 23.841796875
+  },
+  {
+   "model": "Attention (PyTorch SDPA)",
+   "L": 2048,
+   "ms": 7.440099994710181,
+   "mem_MB": 48.435546875
+  },
+  {
+   "model": "Attention (PyTorch SDPA)",
+   "L": 4096,
+   "ms": 26.487199997063726,
+   "mem_MB": 97.623046875
+  },
+  {
+   "model": "Attention (PyTorch SDPA)",
+   "L": 8192,
+   "ms": 89.54800000356045,
+   "mem_MB": 195.998046875
+  },
+  {
+   "model": "Attention (PyTorch SDPA)",
+   "L": 16384,
+   "ms": 352.05970000242814,
+   "mem_MB": 392.748046875
+  },
+  {
+   "model": "Attention (PyTorch SDPA)",
+   "L": 32768,
+   "ms": 1314.8486999998568,
+   "mem_MB": 786.248046875
+  },
+  {
+   "model": "Attention (PyTorch SDPA)",
+   "L": 65536,
+   "ms": 5186.785300000338,
+   "mem_MB": 1573.248046875
+  },
+  {
+   "model": "Attention (PyTorch SDPA)",
+   "L": 131072,
+   "ms": 20941.372000001138,
+   "mem_MB": 3147.248046875
+  },
+  {
+   "model": "LSTM (cuDNN)",
+   "L": 256,
+   "ms": 13.18889999674866,
+   "mem_MB": 21.02099609375
+  },
+  {
+   "model": "LSTM (cuDNN)",
+   "L": 512,
+   "ms": 26.550199996563606,
+   "mem_MB": 26.90185546875
+  },
+  {
+   "model": "LSTM (cuDNN)",
+   "L": 1024,
+   "ms": 55.005200003506616,
+   "mem_MB": 42.03515625
+  },
+  {
+   "model": "LSTM (cuDNN)",
+   "L": 2048,
+   "ms": 102.25699999864446,
+   "mem_MB": 76.02734375
+  },
+  {
+   "model": "LSTM (cuDNN)",
+   "L": 4096,
+   "ms": 196.14780000119936,
+   "mem_MB": 144.02734375
+  },
+  {
+   "model": "LSTM (cuDNN)",
+   "L": 8192,
+   "ms": 387.31799999368377,
+   "mem_MB": 280.02734375
+  },
+  {
+   "model": "LSTM (cuDNN)",
+   "L": 16384,
+   "ms": 746.7058999973233,
+   "mem_MB": 552.02734375
+  },
+  {
+   "model": "LSTM (cuDNN)",
+   "L": 32768,
+   "ms": 1549.728400001186,
+   "mem_MB": 1096.02734375
+  },
+  {
+   "model": "LSTM (cuDNN)",
+   "L": 65536,
+   "ms": null,
+   "mem_MB": null,
+   "fail": "unsupported"
+  }
+ ],
+ "step": [
+  {
+   "model": "S4 (recurrent)",
+   "L": 256,
+   "us": 340.6999967410229,
+   "state_KB": 64.0
+  },
+  {
+   "model": "Mamba (recurrent)",
+   "L": 256,
+   "us": 421.1999985272996,
+   "state_KB": 38.0
+  },
+  {
+   "model": "Transformer (KV cache)",
+   "L": 256,
+   "us": 761.2000044900924,
+   "state_KB": 512.0
+  },
+  {
+   "model": "LSTM",
+   "L": 256,
+   "us": 108.59999747481197,
+   "state_KB": 2.0
+  },
+  {
+   "model": "S4 (recurrent)",
+   "L": 512,
+   "us": 350.39999784203246,
+   "state_KB": 64.0
+  },
+  {
+   "model": "Mamba (recurrent)",
+   "L": 512,
+   "us": 427.3999948054552,
+   "state_KB": 38.0
+  },
+  {
+   "model": "Transformer (KV cache)",
+   "L": 512,
+   "us": 736.0000017797574,
+   "state_KB": 1024.0
+  },
+  {
+   "model": "LSTM",
+   "L": 512,
+   "us": 110.30000314349309,
+   "state_KB": 2.0
+  },
+  {
+   "model": "S4 (recurrent)",
+   "L": 1024,
+   "us": 348.1999956420623,
+   "state_KB": 64.0
+  },
+  {
+   "model": "Mamba (recurrent)",
+   "L": 1024,
+   "us": 417.8000017418526,
+   "state_KB": 38.0
+  },
+  {
+   "model": "Transformer (KV cache)",
+   "L": 1024,
+   "us": 765.6999950995669,
+   "state_KB": 2048.0
+  },
+  {
+   "model": "LSTM",
+   "L": 1024,
+   "us": 110.10000162059441,
+   "state_KB": 2.0
+  },
+  {
+   "model": "S4 (recurrent)",
+   "L": 2048,
+   "us": 339.4999948795885,
+   "state_KB": 64.0
+  },
+  {
+   "model": "Mamba (recurrent)",
+   "L": 2048,
+   "us": 424.8999975970946,
+   "state_KB": 38.0
+  },
+  {
+   "model": "Transformer (KV cache)",
+   "L": 2048,
+   "us": 957.7999953762628,
+   "state_KB": 4096.0
+  },
+  {
+   "model": "LSTM",
+   "L": 2048,
+   "us": 117.89999553002417,
+   "state_KB": 2.0
+  },
+  {
+   "model": "S4 (recurrent)",
+   "L": 4096,
+   "us": 364.69999758992344,
+   "state_KB": 64.0
+  },
+  {
+   "model": "Mamba (recurrent)",
+   "L": 4096,
+   "us": 439.89999539917335,
+   "state_KB": 38.0
+  },
+  {
+   "model": "Transformer (KV cache)",
+   "L": 4096,
+   "us": 1162.0000004768372,
+   "state_KB": 8192.0
+  },
+  {
+   "model": "LSTM",
+   "L": 4096,
+   "us": 112.00000153621659,
+   "state_KB": 2.0
+  },
+  {
+   "model": "S4 (recurrent)",
+   "L": 8192,
+   "us": 430.5000038584694,
+   "state_KB": 64.0
+  },
+  {
+   "model": "Mamba (recurrent)",
+   "L": 8192,
+   "us": 446.7999970074743,
+   "state_KB": 38.0
+  },
+  {
+   "model": "Transformer (KV cache)",
+   "L": 8192,
+   "us": 1721.6999985976145,
+   "state_KB": 16384.0
+  },
+  {
+   "model": "LSTM",
+   "L": 8192,
+   "us": 111.80000001331791,
+   "state_KB": 2.0
+  },
+  {
+   "model": "S4 (recurrent)",
+   "L": 16384,
+   "us": 355.39999953471124,
+   "state_KB": 64.0
+  },
+  {
+   "model": "Mamba (recurrent)",
+   "L": 16384,
+   "us": 444.2999997991137,
+   "state_KB": 38.0
+  },
+  {
+   "model": "Transformer (KV cache)",
+   "L": 16384,
+   "us": 2996.000002895016,
+   "state_KB": 32768.0
+  },
+  {
+   "model": "LSTM",
+   "L": 16384,
+   "us": 108.59999747481197,
+   "state_KB": 2.0
+  },
+  {
+   "model": "S4 (recurrent)",
+   "L": 32768,
+   "us": 342.40000240970403,
+   "state_KB": 64.0
+  },
+  {
+   "model": "Mamba (recurrent)",
+   "L": 32768,
+   "us": 410.29999556485564,
+   "state_KB": 38.0
+  },
+  {
+   "model": "Transformer (KV cache)",
+   "L": 32768,
+   "us": 5464.099995151628,
+   "state_KB": 65536.0
+  },
+  {
+   "model": "LSTM",
+   "L": 32768,
+   "us": 119.80000272160396,
+   "state_KB": 2.0
+  },
+  {
+   "model": "S4 (recurrent)",
+   "L": 65536,
+   "us": 363.3999949670397,
+   "state_KB": 64.0
+  },
+  {
+   "model": "Mamba (recurrent)",
+   "L": 65536,
+   "us": 413.5999988648109,
+   "state_KB": 38.0
+  },
+  {
+   "model": "Transformer (KV cache)",
+   "L": 65536,
+   "us": 10303.099996235687,
+   "state_KB": 131072.0
+  },
+  {
+   "model": "LSTM",
+   "L": 65536,
+   "us": 108.20000170497224,
+   "state_KB": 2.0
+  },
+  {
+   "model": "S4 (recurrent)",
+   "L": 131072,
+   "us": 340.8999982639216,
+   "state_KB": 64.0
+  },
+  {
+   "model": "Mamba (recurrent)",
+   "L": 131072,
+   "us": 444.0000047907233,
+   "state_KB": 38.0
+  },
+  {
+   "model": "Transformer (KV cache)",
+   "L": 131072,
+   "us": 19960.30000009341,
+   "state_KB": 262144.0
+  },
+  {
+   "model": "LSTM",
+   "L": 131072,
+   "us": 110.69999891333282,
+   "state_KB": 2.0
+  }
+ ]
+}
